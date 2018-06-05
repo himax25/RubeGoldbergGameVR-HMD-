@@ -3,10 +3,7 @@ This is 6th project for Udacity' VR Nanodegree. This project is one of High Imme
 by Steam VR (Open VR High Immersion Head Mount Device). Base on Oculus' Rift HMD with Unity, I have developed Rube Goldberg Puzzle Game.
 
 ## Rube Goldberg Game: consists of 4 levels with High Immersion VR based puzzle game.
-The player needs to build up his or her own ball navigation path to the goal gate with 4 difference game objects by game menu.
+The player needs to build up his or her own ball rolling journey to the goal gate with 4 difference game objects by the game menu. In each level, there have different layouts for both factorial structure and teleport gateways, and a limited number of game-object to choose. The winning condition of this game is how long the ball takes to get thru the goal gate and how many stars the ball takes in its ball rolling journey.
 
 
  
-1. Select Game Objects from the menu to build your own ball navigation way to the goal gate.
-2. Pick up the ball at the platform to start this game after building up your own ball path.
-3. Send the ball thru your built path to get the goal gate.
