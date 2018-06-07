@@ -7,6 +7,7 @@ The player needs to build up his or her own ball rolling journey to the goal gat
 
 # Design and Deployment
 ## Level 1
+![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Game%20Screenshot1.PNG)
 * The number of given game objects: 
 >> <li>Metal Plank (1 ea): Kinematic enabled. </li> 
 >> <li>Trampoline (1 ea): Gravity Enabled & Kinematic enabled. </li>
