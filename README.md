@@ -5,6 +5,18 @@ This is 6th project for Udacity' VR Nanodegree. This project is one of Multi-VR-
 ## Rube Goldberg Game: consists of 4 levels with High Immersion VR based puzzle game.
 The player needs to build up his or her own ball rolling journey to the goal gate with 4 difference game objects by the game menu. In each level, there have different layouts for both factorial structure and teleport gateways, and a limited number of game-object to choose. The winning condition of this game is how long the ball takes to get thru the goal gate and how many stars the ball takes in its ball rolling journey.
 
+# Design and Deployment
+## Level 1
+* The number of given game objects: 
+>> <li>Metal Plank (1 ea): Kinematic enabled. </li> 
+>> <li>Trampoline (1 ea): Gravity Enabled & Kinematic enabled. </li>
+>> <li>Fan (1 ea): Kinematic enabled. </li> 
+>> <li>Tube Curve (1 ea): Kinematic enabled. </li> 
+* The number of collecible Starts: 10 starts to get score for each level.
+* The number of Gates:
+>> <li> 1 pair of Teleport Gate in & out. </li>
+>> <li> 1 Goal Gate. </li> 
+
 # Conclusion
 
 ## **Author of this coding**
