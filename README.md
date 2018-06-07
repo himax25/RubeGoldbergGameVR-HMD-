@@ -6,6 +6,8 @@ This is 6th project for Udacity' VR Nanodegree. This project is one of Multi-VR-
 The player needs to build up his or her own ball rolling journey to the goal gate with 4 difference game objects by the game menu. In each level, there have different layouts for both factorial structure and teleport gateways, and a limited number of game-object to choose. The winning condition of this game is how long the ball takes to get thru the goal gate and how many stars the ball takes in its ball rolling journey.
 
 # Design and Deployment
+Building up Rube Goldberg Ball rolling journey from Playing Start platform to the Goal gate by Game Object puzzled location with Teleports. The player will get essential score points thru 10 stars to collect on its ball path with execution time at each level.
+
 ## Level 1
 ![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%201%20Screenshot.PNG)
 * The number of given game objects: 
@@ -29,7 +31,24 @@ The player needs to build up his or her own ball rolling journey to the goal gat
 * The number of Gates:
 >> <li> 1 pair of Teleport Gate in & out. </li>
 >> <li> 1 Goal Gate. </li> 
+
+## Level 3
+![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%203%20Screenshot.PNG)
+* The number of given game objects: 
+>> <li>Metal Plank (3 ea): Kinematic enabled. </li> 
+>> <li>Trampoline (3 ea): Gravity Enabled & Kinematic enabled. </li>
+>> <li>Fan (3 ea): Kinematic enabled. </li> 
+>> <li>Tube Curve (3 ea): Kinematic enabled. </li> 
+* The number of collecible Starts: 10 starts to get score for each level.
+* The number of Gates:
+>> <li> 2 pairs of Teleport Gate in & out. </li>
+>> <li> 1 Goal Gate. </li> 
+
+## Some Challenges
+
+
 # Conclusion
+
 
 ## **Author of this coding**
 * Hyo Lee, linkedin [here](https://www.linkedin.com/in/hyo-max-lee-61241b13/)
