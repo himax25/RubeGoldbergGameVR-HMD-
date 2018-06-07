@@ -19,7 +19,7 @@ The player needs to build up his or her own ball rolling journey to the goal gat
 >> <li> 1 Goal Gate. </li> 
 
 ## Level 2
-![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%201%20Screenshot.PNG)
+![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%202%20Screenshot.PNG)
 * The number of given game objects: 
 >> <li>Metal Plank (2 ea): Kinematic enabled. </li> 
 >> <li>Trampoline (2 ea): Gravity Enabled & Kinematic enabled. </li>
