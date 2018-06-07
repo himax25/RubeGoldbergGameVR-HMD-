@@ -44,6 +44,18 @@ Building up Rube Goldberg Ball rolling journey from Playing Start platform to th
 >> <li> 2 pairs of Teleport Gate in & out. </li>
 >> <li> 1 Goal Gate. </li> 
 
+## Level 4
+![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%204%20Screenshot.PNG)
+* The number of given game objects: 
+>> <li>Metal Plank (4 ea): Kinematic enabled. </li> 
+>> <li>Trampoline (4 ea): Gravity Enabled & Kinematic enabled. </li>
+>> <li>Fan (4 ea): Kinematic enabled. </li> 
+>> <li>Tube Curve (4 ea): Kinematic enabled. </li> 
+* The number of collecible Starts: 10 starts to get score for each level.
+* The number of Gates:
+>> <li> 2 pairs of Teleport Gate in & out. </li>
+>> <li> 1 Goal Gate. </li> 
+
 ## Some Challenges
 
 
