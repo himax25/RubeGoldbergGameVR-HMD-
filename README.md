@@ -92,8 +92,7 @@ This SteamVR based Rube Goldberg Game applies the following features:
 It takes 100 hours to develop and test this project.
 
 ## Major Challenges in the project.
-There are some challenges to build up a scenario for the level of difficulties.
-At every time I test each game scenario at each level, it is too hard to control the level of difficulties with all game objects' layout for accuracy ball thru path. 
+There are some chanllenges to build up a scenario for the level of difficluties. At every time I test each game scenario at each level, it is too hard to control the level of game difficulties with all give game objects with building layout due to accuracy ball movement control. 
 
 # Conclusion
 
