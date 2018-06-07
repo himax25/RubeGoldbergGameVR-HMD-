@@ -57,8 +57,9 @@ Building up Rube Goldberg Ball rolling journey from Playing Start platform to th
 >> <li> 2 pairs of Teleport Gate in & out. </li>
 >> <li> 1 Goal Gate. </li> 
 
-## Some Challenges
-
+## Major Challenges in the project.
+There are some challenges to build up a scenario for the level of difficulties.
+At every time I test each game scenario at each level, it is too hard to control the level of difficulties with all game objects' layout for accuracy ball thru path. 
 
 # Conclusion
 
