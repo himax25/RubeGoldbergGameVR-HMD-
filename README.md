@@ -14,7 +14,7 @@ SteamVR based management supports multi High Immersion Head Mount Device with co
 >> <li><b>Grip button holdding</b>: Walking locomotion. </li>
 * Right Contoller: Game Object Menu and Ball control. </li>
 >> <li><b>Touchpad(Swipping L/R)</b>: Show objects in the Menu. </li>
->> <li><b>Touchpad(Press down)</b>: Select object from the Menu. At each level, spawn each 4 game object up to the number of the game level. Ex) Max.#Object is 3 if Level 3. </li>
+>> <li><b>Touchpad(Press down)</b>: Select object from the Menu. At each level, spawn each game object up to the number of the game level. Ex) Max.#Object is 3 with 3 kinds of objects if Level 3. </li>
 >> <li><b>Trigger button & Grip button(Holdding)</b>: Destroy the object.</li>
 >> <li><b>Trigger button(Holdding/Release)</b>: Grabbing/Throwing an object.</li>
 >> <li><b>Grip button(Release)</b>: Turn off the menu. </li>
@@ -30,24 +30,28 @@ SteamVR based management supports multi High Immersion Head Mount Device with co
 * The number of given game objects: 
 >> <li> 1 pair of Teleport Gate in & out. </li>
 >> <li> 1 Goal Gate. </li> 
+>> <li> 1 Game object to play with: Metal Plank. </li>
 
 ## Level 2
 ![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%202%20Screenshot.PNG)
 * The number of given game objects: 
 >> <li> 1 pair of Teleport Gate in & out. </li>
 >> <li> 1 Goal Gate. </li> 
+>> <li> 2 Game objects to play with: 2 Metal Planks and 2 Fans. </li>
 
 ## Level 3
 ![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%203%20Screenshot.PNG)
 * The number of given game objects: 
 >> <li> 2 pairs of Teleport Gate in & out. </li>
 >> <li> 1 Goal Gate. </li> 
+>> <li> 3 Game objects to play with: 3 Metal Planks, 3 Fans, and 3 Tube Curve. </li>
 
 ## Level 4
 ![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%204%20Screenshot.PNG)
 * The number of given game objects: 
 >> <li> 2 pairs of Teleport Gate in & out. </li>
 >> <li> 1 Goal Gate. </li> 
+>> <li> 4 Game objects to play with: 4 Metal Planks, 4 Fans, 4 Tube Curve, and 4 Trampoline. </li>
 
 ## Major Features to apply in this project
 This SteamVR based Rube Goldberg Game applies the following features:
@@ -63,7 +67,7 @@ This SteamVR based Rube Goldberg Game applies the following features:
 * Storing and displaying game score in each level at Scoreboard UI.
 
 ## The period of developing
-It takes 100 hours to develop and test this project.
+It takes 80 hours to develop and test this project.
 
 ## Major challenges in this project.
 There are some challenges to build up a scenario for the level of difficulties.
