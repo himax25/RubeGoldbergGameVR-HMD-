@@ -160,14 +160,14 @@ public class RightHandInteraction : MonoBehaviour {
         if (col.name.Equals("MetalPlankObject"))
         {
             index = 0;
-        } else if (col.name.Equals("TrampolineObject"))
-        {
-            index = 1;
         } else if (col.name.Equals("FanObject"))
         {
-            index = 2;
+            index = 1;
         } else if (col.name.Equals("TubeCurveObject"))
-        { 
+        {
+            index = 2;
+        } else if (col.name.Equals("TrampolineObject"))
+        {
             index = 3;
         }
         if (objectMenuManager.noOfObj[index] > 0 )

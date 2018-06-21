@@ -25,7 +25,7 @@ public class Star : MonoBehaviour {
 
 	void OnTriggerStay (Collider col)
 	{
-		if (col.gameObject.CompareTag ("Throwable"))
+		if (col.gameObject.CompareTag ("Throwable") && gameManager.gameActive)
 		{
 			Rigidbody rB = col.GetComponent<Rigidbody>();	
 			if (!rB.isKinematic)

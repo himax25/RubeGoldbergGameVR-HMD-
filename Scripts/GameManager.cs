@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour {
 	public void LoadLevel()
 	{
 		string sceneName = "";
-		if (level < 5) 
+		if (level < 5 ) 
 		{
 			level +=1;
 			switch(level) {

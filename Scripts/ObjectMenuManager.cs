@@ -105,11 +105,71 @@ public class ObjectMenuManager : MonoBehaviour {
 	void ShowNumberOfObjects()
 	{
 		// This information is to show how many game object the play left on the Camera screen. 
-		numberOfObjects.text = 
-			"Number of Game object you have: \n \n" +
-			   "Metal Plank   = " + noOfObj[0].ToString() + "/" + gameManager.level.ToString() + 
-			"\n Trampoline  = " + noOfObj[1].ToString() + "/" + gameManager.level.ToString() +
-			"\n Fan               = " + noOfObj[2].ToString() + "/" + gameManager.level.ToString() +
-			"\n Tube Curve  = " + noOfObj[3].ToString() + "/" + gameManager.level.ToString();
+		switch (gameManager.level) {
+			case 1:
+				// There is only the 1st game object to be avialiable at level 1.
+				if (noOfObj[0].Equals(gameManager.level))
+				{
+					// There is nothing to display if the player has used all given game objects.
+					numberOfObjects.text = "";
+				}
+				else 
+				{
+					numberOfObjects.text = 
+					"Number of Game object you have: \n \n" +
+			   		" Metal Plank   = " + noOfObj[0].ToString() + "/" + gameManager.level.ToString();
+				}
+				break;
+			case 2:
+				// There are the 1st & 2nd game objects to be avialiable at level 2.
+				if (noOfObj[0].Equals(gameManager.level) && noOfObj[1].Equals(gameManager.level))
+				{
+					// There is nothing to display if the player has used all given game objects.
+					numberOfObjects.text = "";
+				}
+				else 
+				{
+					numberOfObjects.text = 
+					"Number of Game object you have: \n \n" +
+			   		" Metal Plank   = " + noOfObj[0].ToString() + "/" + gameManager.level.ToString() + 
+					"\n Fan                = " + noOfObj[1].ToString() + "/" + gameManager.level.ToString();
+				}
+				break;
+			case 3:
+				// There are the 1st, 2nd, & 3rd game objects to be avialiable at level 3.
+				if (noOfObj[0].Equals(gameManager.level) && noOfObj[1].Equals(gameManager.level) 
+					 && noOfObj[2].Equals(gameManager.level))
+				{
+					// There is nothing to display if the player has used all given game objects.
+					numberOfObjects.text = "";
+				}
+				else 
+				{
+					numberOfObjects.text = 
+					"Number of Game object you have: \n \n" +
+			   		" Metal Plank   = " + noOfObj[0].ToString() + "/" + gameManager.level.ToString() + 
+					"\n Fan                = " + noOfObj[1].ToString() + "/" + gameManager.level.ToString() +
+			   		"\n Tube Curve   = " + noOfObj[2].ToString() + "/" + gameManager.level.ToString();
+				}
+				break;
+			case 4:
+				// There are the 1st, 2nd, 3rd, & 4th game objects to be avialiable at level 4.
+				if (noOfObj[0].Equals(gameManager.level) && noOfObj[1].Equals(gameManager.level)
+					 && noOfObj[2].Equals(gameManager.level) && noOfObj[3].Equals(gameManager.level))
+				{
+					// There is nothing to display if the player has used all given game objects.
+					numberOfObjects.text = "";
+				}
+				else 
+				{
+					numberOfObjects.text = 
+					"Number of Game object you have: \n \n" +
+			   		" Metal Plank   = " + noOfObj[0].ToString() + "/" + gameManager.level.ToString() + 
+					"\n Fan                = " + noOfObj[1].ToString() + "/" + gameManager.level.ToString() +
+			   		"\n Tube Curve   = " + noOfObj[2].ToString() + "/" + gameManager.level.ToString() +
+					"\n Trampoline   = " + noOfObj[3].ToString() + "/" + gameManager.level.ToString(); 
+				}
+				break;
+		}
 	}
 }
