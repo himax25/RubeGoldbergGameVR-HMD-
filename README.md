@@ -1,7 +1,7 @@
 # Udacity High Immersion Unity with 6DoF VR: Rube Goldberg Game Project.
 This is the 1st project for High Immersion Unity VR at Nanodegree program in Udacity. 
 This VR game environment is based on 6DoF controllers with SteamVR Scripts to support both HTC's VIVE and Oculus' Rift HMDs.
-![youtubelink](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Screenshot%20of%20Youtube.PNG)[for playing Youtube video here](https://youtu.be/R6i4eu5UBbI)
+![youtubelink](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Screenshot%20of%20Youtube.PNG)[for playing Youtube video here](https://youtu.be/S4AoDI8p_FQ)
 The player needs to build up his or her own ball rolling journey to the goal gate with 4 difference game objects by the game menu. In each level, there have different layouts for both factorial structure and teleport gateways, and a limited number of game-object to choose. The winning condition of this game is how long the ball takes to get thru the goal gate and how many stars the ball takes in its ball rolling journey.
 
 # Design and Deployment
