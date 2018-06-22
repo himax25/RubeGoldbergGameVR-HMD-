@@ -74,10 +74,15 @@ public class LeftLocomotionController : MonoBehaviour {
         }
         if (device.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
         {
-            //&& (laser.gameObject.CompareTag("Floor")))
             laser.gameObject.SetActive(false);
             teleportAimerObject.SetActive(false);
-            if ((teleportLocation.y < 1.0f) && (teleportLocation.y > -1.0f)) 
+            if (((teleportLocation.y < 1.0f) && (teleportLocation.y > -1.0f)
+                &&(teleportLocation.x < 15.0f) && (teleportLocation.x > -34.0f)
+                &&(teleportLocation.z < 18.0f) && (teleportLocation.z > -31.0f))  
+                ||
+                ((teleportLocation.y < 1.0f) && (teleportLocation.y > -1.0f)
+                &&(teleportLocation.x < -14.0f) && (teleportLocation.x > -34.0f)
+                &&(teleportLocation.z < 28.0f) && (teleportLocation.z > 18.0f)))  
             {
                 player.transform.position = teleportLocation;
             }
