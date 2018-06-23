@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
 	public bool gameActive;
 	public Text scoreMsg;
 	public Text timeRecord;
-	private int point;
+	public int point;
 	private float timer;
 	// Use this for initialization
 	void Start () 
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour {
 		string sceneName = "";
 		if (level < 5 ) 
 		{
-			level +=1;
+			level +=1;  
 			switch(level) {
 				case 2: 
 					// Store Level 1 score info with time record
@@ -74,6 +74,12 @@ public class GameManager : MonoBehaviour {
 			}
 			SteamVR_LoadLevel.Begin(sceneName);
 		}	
+	}
+	public void ResetGame()
+	{
+		// Restart the current game.
+		string levelName = "Level"+level.ToString();
+        SteamVR_LoadLevel.Begin(levelName);
 	}
 	public void SetCountText()
 	{
