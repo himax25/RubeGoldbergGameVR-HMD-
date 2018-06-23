@@ -31,9 +31,9 @@ SteamVR based management supports multi High Immersion Head Mount Device with co
 4. Level up to the next stage if the player achieve to collect the number of Stars at each level.
 
 ## Anti-cheating algorithm
-The play ball will be only activated at the playzone platform.
-The game will be restarted if the play grabs the ball at the out of the playzone platform.
-The game will be reloaded if the player could not achieve the mission of each level to collect stars.
+* The play ball will be only activated at the playzone platform.
+* The game will be restarted if the play grabs the ball at the out of the playzone platform.
+* The game will be reloaded if the player could not achieve the mission of each level to collect stars.
 
 ## Level 1
 ![screenshot](https://github.com/himax25/RubeGoldbergGameVR-HMD-/blob/master/Level%201%20Screenshot.PNG)
