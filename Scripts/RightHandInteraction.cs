@@ -125,16 +125,22 @@ public class RightHandInteraction : MonoBehaviour {
     }
     void GrabObject(Collider col)
     {
-        if (col.gameObject.CompareTag("Throwable"))
+        if (col.gameObject.CompareTag("Throwable")) 
         {
-            if (!gameManager.gameActive) 
+            if (playZone.rightLocation)
             {
-                ball.GameOn();
-            }
-            else //if (ball.ballRenderer.material.Equals(ball.activeMaterial)) 
+                if (!gameManager.gameActive) 
+                {
+                    ball.GameOn();
+                }
+                else  
+                {
+                    gameManager.gameActive = false;
+                }
+            } else
             {
-			   // the ball turns into inactive mode if the ball at the out of playzone with grabbing.
-                gameManager.gameActive = false;
+                 // The game will be restarted if the player grabs the ball at the out of playzone.
+                gameManager.ResetGame();
             }
         }
         col.transform.SetParent(gameObject.transform);
@@ -152,7 +158,6 @@ public class RightHandInteraction : MonoBehaviour {
             rigidBody.velocity = device.velocity * throwForce;
             rigidBody.angularVelocity = device.angularVelocity;
         }
-        
     }
     void DestroyObject(Collider col) 
     {
