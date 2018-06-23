@@ -35,9 +35,15 @@ public class Goal : MonoBehaviour {
 		if (gameManager.level.Equals(4))
 		{
 			levelEndMessage.text = "Congraturation. \n Can you play again?";
-		} else
-		{
-		levelEndMessage.text = "Mission Completed! \n Challenge to next level!";
-		}
+		} else if (gameManager.point > ((gameManager.level * 10) + 30))
+		 {
+			levelEndMessage.text = "Mission Completed! \n Challenge to next level!";
+		 } else
+		 {
+			 // The game will be restarted if the player does not meet # of star to collect.
+			 // Mission for each level = Level 1: 5 stars, Level 2: 6 stars, Level 3: 7 stars, Level 4: 8 stars.  
+			 levelEndMessage.text = "Mission Failed! \n Please try the game again.";
+			 gameManager.ResetGame();
+		 }
 	}
 }
